@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ResTest_Webclient/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/ResTest_Webclient/static/js/main.ada0479c.chunk.js",
-    "main.js.map": "/ResTest_Webclient/static/js/main.ada0479c.chunk.js.map",
+    "main.js": "/ResTest_Webclient/static/js/main.79fd6830.chunk.js",
+    "main.js.map": "/ResTest_Webclient/static/js/main.79fd6830.chunk.js.map",
     "runtime-main.js": "/ResTest_Webclient/static/js/runtime-main.baa471dd.js",
     "runtime-main.js.map": "/ResTest_Webclient/static/js/runtime-main.baa471dd.js.map",
     "static/js/2.1558e76b.chunk.js": "/ResTest_Webclient/static/js/2.1558e76b.chunk.js",
     "static/js/2.1558e76b.chunk.js.map": "/ResTest_Webclient/static/js/2.1558e76b.chunk.js.map",
     "index.html": "/ResTest_Webclient/index.html",
-    "precache-manifest.dd319c4f56f11ea4be105437d087f6b4.js": "/ResTest_Webclient/precache-manifest.dd319c4f56f11ea4be105437d087f6b4.js",
+    "precache-manifest.bdb81e56863cce16f553a9eee342314b.js": "/ResTest_Webclient/precache-manifest.bdb81e56863cce16f553a9eee342314b.js",
     "service-worker.js": "/ResTest_Webclient/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/ResTest_Webclient/static/css/main.5ecd60fb.chunk.css.map",
     "static/js/2.1558e76b.chunk.js.LICENSE.txt": "/ResTest_Webclient/static/js/2.1558e76b.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.baa471dd.js",
     "static/js/2.1558e76b.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.ada0479c.chunk.js"
+    "static/js/main.79fd6830.chunk.js"
   ]
 }
