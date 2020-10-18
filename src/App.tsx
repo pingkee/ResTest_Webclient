@@ -1,25 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import ContactUs from './Component/ContactUs';
+import Home from './Component/Home';
+import Notfound from './Component/Notfound';
+import Policy from './Component/Policy';
+import TermsAndCondition from './Component/TermsAndCondition';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/privacypolicy" component={Policy} />
+          <Route path="/termsandcondition" component={TermsAndCondition} />
+          <Route path="/ContactUs" component={ContactUs} />
+          <Route component={Notfound} />
+        </Switch>
+      </div>
+    </BrowserRouter>
   );
 }
 
