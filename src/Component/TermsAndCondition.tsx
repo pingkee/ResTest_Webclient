@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const TermsAndCondition = () => {
   return (
-    <div style={{ margin: 25, maxWidth: "60%" }}>
+    <div style={{ margin: 25, maxWidth: 1800 }}>
         <h2>Terms and Conditions</h2>
         <p style={{ textAlign: "justify" }}>
         By downloading or using the app, these terms will automatically apply to you – you should make sure therefore that you read them carefully before using the app. 

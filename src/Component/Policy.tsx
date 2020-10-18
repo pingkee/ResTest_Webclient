@@ -2,7 +2,7 @@ import React from 'react';
 
 const Policy = () => {
   return (
-    <div style={{ margin: 25, maxWidth: "60%" }}>
+    <div style={{ margin: 25, maxWidth:  1800 }}>
         <h2>Privacy Policy</h2>
         <p style={{ textAlign: "justify" }}>
             Ping Kee built the Res Test app as a Free app. This SERVICE is provided by Ping Kee at no cost and is intended for use as is.
