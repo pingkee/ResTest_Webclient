@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import { HashRouter, Route, Switch } from 'react-router-dom'
 import ContactUs from './Component/ContactUs';
 import Home from './Component/Home';
 import Notfound from './Component/Notfound';
@@ -8,7 +8,7 @@ import TermsAndCondition from './Component/TermsAndCondition';
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter basename='/'>
       <div>
         <Switch>
           <Route path="/privacypolicy" component={Policy} />
@@ -18,7 +18,7 @@ const App = () => {
           <Route exact path="/" component={Home} />
         </Switch>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
