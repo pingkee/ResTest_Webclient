@@ -2,7 +2,7 @@
   "name": "restest_webclient",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://pingkee.github.io/ResTest_webclient",
+  "homepage": "https://pingkee.github.io/ResTest_Webclient/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
