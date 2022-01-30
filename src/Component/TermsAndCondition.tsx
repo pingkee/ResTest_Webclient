@@ -117,6 +117,10 @@ const TermsAndCondition = () => {
             Contact Us
             If you have any questions or suggestions about my Terms and Conditions, do not hesitate to contact me at Pingkee.ng@gmail.com
         </p>
+        <br />
+        <p style={{ textAlign: "center" }}>
+            RES TEST SINGAPORE © 2021 - 2022 All rights reserved
+        </p>
     </div>
   );
 }
